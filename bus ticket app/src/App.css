@@ -1,0 +1,331 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.admin-img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://i.hizliresim.com/bciazaz.png");
+}
+
+.purchase-page-customer {
+  padding: 150px;
+}
+
+.project-name-div {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.project-name {
+  text-align: center;
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.432);
+  color: rgb(0, 0, 0);
+  border: solid 1px rgb(0, 0, 0);
+
+}
+
+.travel-detail{
+ display: flex;
+ width: "100%";
+ height: 1100px;
+ background-image: url("hhttps://i.hizliresim.com/bciazaz.png");
+justify-content: center;
+
+
+
+}
+.travel-bus{
+ 
+ background-color: white;
+ border-radius: 10px;
+ padding: 10px;
+width: 700px;
+height: 600px;
+ display: flex;
+ margin: 20px;
+ opacity: 1;
+
+ 
+ }
+.name-div {
+  margin: 22vh 40px 20px;
+  font-weight: 700;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+
+}
+
+.admin-img:hover {
+  cursor: pointer;
+}
+
+.admin-div {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.travel-div {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px 30% 0 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  opacity: 0.9;
+}
+
+.travel-btn {
+  border-radius: 10px;
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(49, 82, 192);
+}
+
+.travel-btn:hover {
+  background-color: #f6ecff;
+  color: white;
+}
+
+.travel-select {
+
+  background-color: #f6ecff;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  min-width: 300px;
+  text-align: start;
+  text-decoration: none;
+  display: inline-block;
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(52, 83, 182);
+}
+
+.travel-panel-back-btn {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  color: rgb(250, 250, 250);
+  font-size: 1.7em;
+  font-weight: 600;
+  background-color: rgb(247, 81, 81);
+  border: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.travel-panel-back-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+
+.travel-panel-back-btn:hover {
+  background-color: #fc2424;
+  color: white;
+}
+
+.ticket-screen-div {
+  display: flex;
+  margin: 10vh 2% 0 2%;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.ticket-screen-back-btn {
+  width: 8%;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid pink;
+}
+
+.ticket-screen-back-btn:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+.Login {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://i.hizliresim.com/bciazaz.png");
+
+
+}
+
+
+
+form {
+  display: block;
+  position: relative;
+  opacity: 0.9;
+ 
+}
+
+form .form-inner {
+  position: relative;
+  display: block;
+  background-color: #fff;
+  padding: 30px;
+  z-index: 2;
+ 
+}
+
+form .form-inner h2 {
+  color: #888;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 40px;
+
+}
+
+form .form-inner .form-group {
+  display: block;
+  width: 500px;
+  margin-bottom: 15px;
+
+}
+
+.form-group .form-inner label {
+
+  display: block;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 5px;
+  transition: 04s;
+}
+
+.form-inner .form-group:focus-within label {
+  color: #f95738;
+}
+
+form .form-inner .form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #F8F8F8;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+form .form-inner .form-group input:focus {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+form .form-inner input[type="submit"] {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #f95738, #f95738, #f95738);
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+form .form-inner input[type="submit"]:hover {
+  background-position: 100% 0%;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
